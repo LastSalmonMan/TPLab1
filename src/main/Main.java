@@ -9,7 +9,7 @@ public class Main
     {
         try
         {
-            System.out.println("GitHub");
+            System.out.println("Git");
             Deck deck = new Deck(24);
             deck.showAll();
             System.out.println("------------------");
