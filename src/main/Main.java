@@ -9,6 +9,7 @@ public class Main
     {
         try
         {
+            int a = 2;
             Deck deck = new Deck(24);
             deck.showAll();
             System.out.println("------------------");
