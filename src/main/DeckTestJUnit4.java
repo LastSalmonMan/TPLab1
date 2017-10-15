@@ -51,6 +51,15 @@ public class DeckTestJUnit4
         tester = new Deck(12);
     }
 
+    //test by Kacper Smyczyk
+    @Test
+    public void shuffle() throws Exception{
+        Deck temporaryDeck = tester;
+        temporaryDeck.shuffle();
+        assertEquals(tester, temporaryDeck);
+    }
+
+
     @After
     public void free()
     {
