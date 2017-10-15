@@ -9,13 +9,11 @@ public class Main
     {
         try
         {
-            System.out.println("Git");
             Deck deck = new Deck(24);
             deck.showAll();
             System.out.println("------------------");
             deck.shuffle();
             deck.showAll();
-            //Github
         } catch (Exception e)
         {
             e.printStackTrace();
